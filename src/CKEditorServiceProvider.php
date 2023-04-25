@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\CKEditor;
+namespace Omaicode\CKEditor;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Omaicode\Admin\Admin;
+use Omaicode\Admin\Form;
 use Illuminate\Support\ServiceProvider;
 
 class CKEditorServiceProvider extends ServiceProvider
