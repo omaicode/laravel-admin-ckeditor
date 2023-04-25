@@ -1,9 +1,9 @@
 {
-    "name": "laravel-admin-ext/ckeditor",
+    "name": "omaicode/laravel-admin-ckeditor",
     "description": "Integrate CKEDITOR into laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "editor", "CKEditor"],
-    "homepage": "https://github.com/laravel-admin-ext/ckeditor",
+    "homepage": "https://github.com/omaicode/laravel-admin-ckeditor",
     "license": "MIT",
     "authors": [
         {
@@ -13,20 +13,20 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "encore/laravel-admin": "~1.6"
+        "omaicode/laravel-admin": "*@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
     },
     "autoload": {
         "psr-4": {
-            "Encore\\CKEditor\\": "src/"
+            "Omaicode\\CKEditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\CKEditor\\CKEditorServiceProvider"
+                "Omaicode\\CKEditor\\CKEditorServiceProvider"
             ]
 
         }
