@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\CKEditor;
+namespace Omaicode\CKEditor;
 
-use Encore\Admin\Extension;
+use Omaicode\Admin\Extension;
 
 class CKEditor extends Extension
 {
