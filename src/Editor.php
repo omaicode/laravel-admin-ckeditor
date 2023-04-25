@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\CKEditor;
+namespace Omaicode\CKEditor;
 
-use Encore\Admin\Form\Field\Textarea;
+use Omaicode\Admin\Form\Field\Textarea;
 
 class Editor extends Textarea
 {
